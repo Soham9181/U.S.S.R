@@ -66,7 +66,7 @@ export default function AUVMonitor() {
           <div className="mt-4 space-y-2">
             <div className="flex items-center justify-between">
               <span className="text-[10px] font-mono text-abyss-400 uppercase tracking-wider">Model</span>
-              <span className="text-xs font-mono text-abyss-100">DeepSense Surveyor-1</span>
+              <span className="text-xs font-mono text-abyss-100">Marine Vision Surveyor-1</span>
             </div>
             <div className="flex items-center justify-between">
               <span className="text-[10px] font-mono text-abyss-400 uppercase tracking-wider">Sonar</span>

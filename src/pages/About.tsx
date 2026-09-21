@@ -23,7 +23,7 @@ export default function About() {
   return (
     <div className="p-4 lg:p-6">
       <PageHeader
-        title="About DeepSense"
+        title="About Marine Vision"
         subtitle="The technology behind AI-powered fishing debris detection using side-scan sonar."
         badge="TECHNOLOGY"
       />
@@ -114,7 +114,7 @@ export default function About() {
       {/* How AI detects debris */}
       <Section id="how-ai-detects" icon={Brain} title="How AI Detects Marine Debris">
         <p className="text-sm text-abyss-200 leading-relaxed mb-4">
-          DeepSense is designed to use computer vision and machine learning to analyze sonar
+          Marine Vision is designed to use computer vision and machine learning to analyze sonar
           imagery for fishing-related debris. The AI pipeline involves:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -181,7 +181,7 @@ export default function About() {
       {/* Future model architecture */}
       <Section id="future-models" icon={Database} title="Future AI Model Architecture">
         <p className="text-sm text-abyss-200 leading-relaxed mb-4">
-          DeepSense is designed to accommodate future AI model integration. The UI is compatible
+          Marine Vision is designed to accommodate future AI model integration. The UI is compatible
           with architectures such as:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">

@@ -12,7 +12,7 @@ export function Footer() {
                 <Waves className="w-4 h-4 text-sonar-cyan" />
               </div>
               <div>
-                <div className="text-sm font-bold text-abyss-50 tracking-wider">DEEPSENSE</div>
+                <div className="text-sm font-bold text-abyss-50 tracking-wider">MARINE VISION</div>
                 <div className="text-[9px] font-mono text-abyss-400 uppercase tracking-widest">
                   Underwater Marine Debris Intelligence
                 </div>
@@ -50,7 +50,7 @@ export function Footer() {
             Prototype developed for Smart India Hackathon
           </p>
           <p className="text-xs font-mono text-abyss-400">
-            DeepSense © 2026 │ Demo / Simulated Data
+            Marine Vision © 2026 │ Demo / Simulated Data
           </p>
         </div>
       </div>

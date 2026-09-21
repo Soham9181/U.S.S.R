@@ -35,7 +35,7 @@ export function Sidebar() {
           <div className="absolute -top-0.5 -right-0.5 w-2 h-2 rounded-full bg-status-safe animate-blink" />
         </div>
         <div>
-          <div className="text-sm font-bold text-abyss-50 tracking-wider">DEEPSENSE</div>
+          <div className="text-sm font-bold text-abyss-50 tracking-wider">MARINE VISION</div>
           <div className="text-[9px] font-mono text-abyss-400 uppercase tracking-widest">
             Marine Debris AI
           </div>

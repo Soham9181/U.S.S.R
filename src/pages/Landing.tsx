@@ -56,7 +56,7 @@ export default function Landing() {
               transition={{ duration: 0.6 }}
               className="flex items-center gap-2 mb-6"
             >
-              <span className="text-label text-sonar-cyan">DEEPSENSE</span>
+              <span className="text-label text-sonar-cyan">MARINE VISION</span>
               <span className="text-abyss-600">//</span>
               <span className="text-label text-abyss-300">UNDERWATER INTELLIGENCE</span>
             </motion.div>
@@ -178,7 +178,7 @@ export default function Landing() {
       {/* Problem Section */}
       <ProblemSection />
 
-      {/* How DeepSense Works */}
+      {/* How Marine Vision Works */}
       <HowItWorksSection />
 
       {/* Why Side-Scan Sonar */}
@@ -314,7 +314,7 @@ function HowItWorksSection() {
   const steps = [
     { num: '01', title: 'Sonar Scan', desc: 'Side-scan sonar sends acoustic pulses toward the seafloor.', icon: Radio },
     { num: '02', title: 'Sonar Image', desc: 'Acoustic returns create an image of the underwater environment.', icon: ScanLine },
-    { num: '03', title: 'AI Processing', desc: 'DeepSense preprocesses and analyzes the sonar imagery.', icon: Brain },
+    { num: '03', title: 'AI Processing', desc: 'Marine Vision preprocesses and analyzes the sonar imagery.', icon: Brain },
     { num: '04', title: 'Debris Detection', desc: 'AI identifies visual/acoustic patterns associated with fishing gear.', icon: Crosshair },
     { num: '05', title: 'Classification', desc: 'The system estimates what type of fishing debris was detected.', icon: Layers },
     { num: '06', title: 'Location', desc: 'Detection is associated with survey position and estimated depth.', icon: MapPin },
@@ -334,7 +334,7 @@ function HowItWorksSection() {
         >
           <div className="text-label text-sonar-cyan mb-3">THE PIPELINE</div>
           <h2 className="text-3xl lg:text-5xl font-bold text-abyss-50 tracking-tight">
-            HOW DEEPSENSE WORKS
+            HOW MARINE VISION WORKS
           </h2>
         </motion.div>
 
@@ -680,7 +680,7 @@ function FinalCTA() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className="text-label text-sonar-cyan mb-4">DEEPSENSE</div>
+          <div className="text-label text-sonar-cyan mb-4">MARINE VISION</div>
           <h2 className="text-3xl lg:text-5xl font-bold text-abyss-50 tracking-tight mb-6 leading-tight">
             THE NEXT GENERATION OF
             <br />
@@ -689,7 +689,7 @@ function FinalCTA() {
             WITH <span className="text-sonar-cyan text-glow">SEEING THE PROBLEM.</span>
           </h2>
           <p className="text-abyss-200 text-lg max-w-2xl mx-auto leading-relaxed mb-10">
-            DeepSense transforms side-scan sonar imagery into actionable
+            Marine Vision transforms side-scan sonar imagery into actionable
             information, helping survey teams identify and locate lost fishing
             gear beneath the surface.
           </p>
